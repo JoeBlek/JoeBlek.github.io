@@ -1,4 +1,4 @@
-var cambiarTamano = 200;
+var imagen = 200;
 
 function cambiarTamano(){    
     var elements = document.getElementsByClassName("imagen");
