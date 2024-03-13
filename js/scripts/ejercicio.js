@@ -1,4 +1,4 @@
-var loadingBar = 200;
+var cambiarTamano = 200;
 
 function cambiarTamano(){    
     var elements = document.getElementsByClassName("imagen");
