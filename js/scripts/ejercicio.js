@@ -1,11 +1,15 @@
 
 
-function cambiarTamano()
-{
-    var image = document.getElementById('imagen');
-    image.style.width = '200px;'
+var loadingBar = 200;
+
+function cambiarTamano(){
+    document.getElementsByClassName("imagen").style.width=(imagen+"px");
+    imagen++;
+    if(inmagen === 900){
+         clearInterval(intervalId);
+    }
 }
-var intervalId = setInterval(animationBarOne,1);
+var intervalId = setInterval(cambiarTamano,1);
 
 function cambiarColor(){
     variable_album = document.getElementById("album");
