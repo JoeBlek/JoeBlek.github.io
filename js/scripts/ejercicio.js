@@ -1,14 +1,9 @@
-var loadingBar = 200;
 
-function cambiarTamano(){    
-    var elements = document.getElementsByClassName("loading-bar");
-    for (var i = 0; i < elements.length; i++) {
-        elements[i].style.width=(loadingBar+"px");
-    }
-    loadingBar++;
-    if(loadingBar === 400){
-         clearInterval(intervalId);
-    }
+
+function changeImageSize()
+{
+    var image = document.getElementById('image');
+    image.style.width = '200px;'
 }
 var intervalId = setInterval(animationBarOne,1);
 
