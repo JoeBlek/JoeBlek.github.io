@@ -1,8 +1,8 @@
 
 
-function changeImageSize()
+function cambiarTamano()
 {
-    var image = document.getElementById('image');
+    var image = document.getElementById('imagen');
     image.style.width = '200px;'
 }
 var intervalId = setInterval(animationBarOne,1);
