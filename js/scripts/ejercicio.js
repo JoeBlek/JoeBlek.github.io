@@ -6,7 +6,7 @@ function cambiarTamano(){
         elements[i].style.width=(loadingBar+"px");
     }
     loadingBar++;
-    if(loadingBar === 900){
+    if(loadingBar === 400){
          clearInterval(intervalId);
     }
 }
