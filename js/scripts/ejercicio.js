@@ -9,12 +9,12 @@ function cambiarColor(){
 var imagen = 400;
 
 function cambiarTamano(){    
-    var elements = document.getElementsByClassName("imagen");
+    var elements = document.getElementsByClassName("imagen2");
     for (var i = 0; i < elements.length; i++) {
-        elements[i].style.width=(imagen+"px");
+        elements[i].style.width=(imagen2+"px");
     }
-   imagen++;
-    if(imagen === 500){
+   imagen2++;
+    if(imagen2 === 500){
          clearInterval(intervalId);
     }
 }
