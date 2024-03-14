@@ -14,7 +14,7 @@ function cambiarTamano(){
         elements[i].style.width=(imagen+"px");
     }
    imagen++;
-    if(imagen === 900){
+    if(imagen === 500){
          clearInterval(intervalId);
     }
 }
