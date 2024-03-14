@@ -6,7 +6,7 @@ function cambiarColor(){
 
 }
 
-var imagen = 400;
+
 
 function cambiarTamano(){    
     var elements = document.getElementsByClassName("imagen");
