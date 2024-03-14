@@ -10,7 +10,7 @@ function cambiarColor(){
 
 function cambiarTamano(){    
     var elements = document.getElementsByClassName("imagen");
-    for (var i = 0; i < elements.height; i++) {
+    for (imagen i = 0; i < elements.height; i++) {
         elements[i].style.width=(imagen+"px");
     }
    imagen++;
@@ -19,4 +19,4 @@ function cambiarTamano(){
     }
 }
 
-var intervalId = setInterval(cambiarTamano, 1);
+
