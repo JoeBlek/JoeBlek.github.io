@@ -1,5 +1,4 @@
 
-var intervalId = setInterval(cambiarTamano,1);
 
 function cambiarColor(){
     variable_album = document.getElementById("album");
@@ -19,3 +18,5 @@ function cambiarTamano(){
          clearInterval(intervalId);
     }
 }
+
+var intervalId = setInterval(cambiarTamano,1);
