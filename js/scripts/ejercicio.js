@@ -6,17 +6,17 @@ function cambiarColor(){
 
 }
 
-var imagen2 = 400;
+var imagen = 400;
 
 function cambiarTamano(){    
-    var elements = document.getElementsByClassName("imagen2");
+    var elements = document.getElementsByClassName("imagen");
     for (var i = 0; i < elements.height; i++) {
-        elements[i].style.width=(imagen2+"px");
+        elements[i].style.width=(imagen+"px");
     }
-   imagen2++;
-    if(imagen2 === 900){
+   imagen++;
+    if(imagen === 900){
          clearInterval(intervalId);
     }
 }
 
-var intervalId = setInterval(cambiarTamano,1);
+var intervalId = setInterval(cambiarTamano, 1);
