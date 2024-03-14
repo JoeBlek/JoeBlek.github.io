@@ -10,7 +10,7 @@ var imagen = 400;
 
 function cambiarTamano(){    
     var elements = document.getElementsByClassName("imagen2");
-    for (var i = 0; i < elements.length; i++) {
+    for (var i = 0; i < elements.height; i++) {
         elements[i].style.width=(imagen2+"px");
     }
    imagen2++;
