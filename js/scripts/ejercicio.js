@@ -7,5 +7,5 @@ function cambiarColor(){
 
 
    function CambiarTamano() {
-       document.getElementsById("album").style.width = "240px";}
+       document.getElementsByTagName("img").style.width = "240px";}
 
