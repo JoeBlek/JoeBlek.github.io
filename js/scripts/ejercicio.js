@@ -6,7 +6,7 @@ function cambiarColor(){
 
 }
 
-function cambiarcambiarTamano(){
+function cambiarTamano(){
     var myImg = document.getElementById("zoom_img");
        var currWidth = myImg.clientWidth;
     if(currWidth >= 50){
