@@ -6,5 +6,6 @@ function cambiarColor(){
 }
 
 
-
+   function CambiarTamano() {
+       document.getElementsByTagName("imagen").style.width = "240px";}
 
