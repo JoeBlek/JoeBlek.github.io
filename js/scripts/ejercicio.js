@@ -7,5 +7,11 @@ function cambiarColor(){
 
 
    function CambiarTamano() {
-       document.getElementsByTagName("img").style.width = "240px";}
+      
+    variable_img = document.getElementById("album");
+    variable_img.style.backgroundColor = width = "240px";;
+
+}
+
+
 
