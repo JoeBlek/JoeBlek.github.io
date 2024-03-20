@@ -6,12 +6,7 @@ function cambiarColor(){
 }
 
 
-   function CambiarTamano() {
-      
-    variable_img = document.getElementByClassName("imagen2");
-    variable_img.style.backgroundColor = height= 400px = width = "auto";
-
-}
+  
 
 
 
