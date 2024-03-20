@@ -1,11 +1,4 @@
 
-
-function cambiarColor(){
-    variable_album = document.getElementById("album");
-    variable_album.style.backgroundColor = "red";
-
-}
-
 function cambiarTamano(){
     var myImg = document.getElementByclass("imagen2");
        var currWidth = myImg.clientWidth;
@@ -13,6 +6,15 @@ function cambiarTamano(){
            myImg.style.width = (currWidth—100) + "px";
     }
 }
+
+
+
+function cambiarColor(){
+    variable_album = document.getElementById("album");
+    variable_album.style.backgroundColor = "red";
+
+}
+
 
 
 
