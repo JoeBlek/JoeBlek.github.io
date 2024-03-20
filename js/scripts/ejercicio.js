@@ -7,5 +7,5 @@ function cambiarColor(){
 
 
    function CambiarTamano() {
-       document.getElementsByClassName("imagen").style.width = "240px";}
+       document.getElementsByClassName("imagen2").style.width = "240px";}
 
